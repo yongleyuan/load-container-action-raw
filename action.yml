@@ -1,0 +1,3 @@
+name: 'Load Container Action'
+
+description: 'Imports the image build caches and loads them for Docker CLI'
