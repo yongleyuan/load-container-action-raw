@@ -45,3 +45,4 @@ runs:
       load: True # allow acces to built images through the Docker CLI
       tags: ${{ inputs.taglist }}
       cache-from: type=local,src=/tmp/.buildx-cache
+      cache-to: type=local,dest=/tmp/.buildx-cache,mode=max
